@@ -1,0 +1,26 @@
+; UnKanj.def : DLL 用のモジュール パラメータ宣言
+
+LIBRARY      "UnKanj"
+DESCRIPTION  'UnKanj Windows Dynamic Link Library'
+
+EXPORTS
+    ; 明示的なエクスポートはここへ記述できます
+	ccGetVersion		@1
+	ccGetRunning		@2
+	ccSetBackGroundMode	@3
+	ccSetOwnerWindow	@4
+	ccCommand			@5
+	ccOpen				@6
+	ccRead				@7
+	ccClose				@8
+	ccGetType			@9
+	ccIsEOF				@10
+;#ifdef ARC_API_SUPPORT	//ARC系APIサポートするか否か
+	ccCheckArchive	@11
+	ccGetFileCount	@12
+	ccOpenArchive	@13
+	ccCloseArchive	@14
+	ccFindFirst		@15
+	ccFindNext		@16
+;#endif //ARC_API_SUPPORT	//ARC系APIサポートするか否か
+	
