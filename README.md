@@ -18,5 +18,4 @@ Unkanjは現在以下の機能・特徴を有しています
 FileDiver, MintEditorプロジェクトでは、漢字処理にUnKanj.dllを使用しています。
 
 ## ライセンス
-## License
-This project is licensed under the zlib License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the zlib License - see the [LICENSE](https://zlib.net/zlib_license.html) file for details.
