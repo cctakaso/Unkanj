@@ -12,7 +12,7 @@ Unkanjは現在以下の機能・特徴を有しています
 3. コマンドファイル：unkanji.exeでは、オプション指示に従い動作します。
 4. ダイナミックライブラリ：unkanji.dllは、API定義に従います。
 
-それぞれの、使いかたの詳しくはunkanji.hにあります。
+それぞれの、使いかたの詳しくは、unkanji.txtおよびunkanji.hにあります。
 
 ## 関連プロジェクト
 FileDiver, MintEditorプロジェクトでは、漢字処理にUnKanj.dllを使用しています。
